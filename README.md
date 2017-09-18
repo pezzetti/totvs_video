@@ -14,9 +14,7 @@ Importe o SQL que está na raiz do projeto
 
 Rode o comando phpunit para rodar os testes do projeto
 
-#
-Url formulário : localhost/totvs_video
-Url cadastro de links : localhost/totvs_video/index.php/guide
-#
+#Url formulário : localhost/totvs_video#
+#Url cadastro de links : localhost/totvs_video/index.php/guide#
 
 
