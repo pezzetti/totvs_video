@@ -13,7 +13,7 @@ class Guide extends MY_Controller {
 		$this->render('list_guide',$data);
 	}
 
-	public function new(){
+	public function newGuide(){
 		$this->render('guide');
 	}
 

@@ -7,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<h4>Guias para campos do formulário</h3>
 		<hr/>
 		<div class="col-md-1">
-			<a class ="btn btn-primary" href="<?=base_url();?>index.php/guide/new">Novo Guia</a>
+			<a class ="btn btn-primary" href="<?=base_url();?>index.php/guide/newGuide">Novo Guia</a>
 		</div>	
 
 		<div class="col-md-12">
