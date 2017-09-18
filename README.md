@@ -3,18 +3,48 @@
 
 Utilizado Framework CodeIgniter
 
-## Instalação ##
- 
-Faça o clone ou download dos arquivos no seu localhost.
+### Requisitos
+Instalar o [Composer](https://getcomposer.org/download/), que será usado para gerenciar as dependências do projeto.
 
-Importe o SQL que está na raiz do projeto
+### Instalação padrão
+Faça o clone do projeto dentro do www/htdocs do seu apache:
+``` ssh
+$ git clone https://github.com/pezzetti/totvs_video.git 
+```
+Importe *totvs.sql* que se encontra dentro da raiz do projeto para o seu MySql.
 
-## Testes com PHPUnit ##
+Instale as dependências via [Composer](https://getcomposer.org/download/):
+``` ssh
+$ composer install
+```
+Altere as configurações em *application/config/database.php*:
+Exemplo:
+``` php
+$db['default'] = array(
+	'dsn'	=> '',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'totvs',
+	'dbdriver' => 'mysql',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => TRUE
+);
+```
+### Utilizando o projeto
+Após a preparação de ambiente, e de clonar o [totvs_video](), o projeto estará disponível em  em [http://localhost/totvs_video](http://localhost/totvs_video) caso tenha feito a instalação padrão.
+Para visualizar o painel de cadastro de links acesse [http://localhost/totvs_video/index.php/guide](http://localhost/totvs_video/index.php/guide)
 
-
-Rode o comando phpunit para rodar os testes do projeto
-
-### Url formulário : localhost/totvs_video ###
-### Url cadastro de links : localhost/totvs_video/index.php/guide ###
 
 
