@@ -1,0 +1,53 @@
+.linha-form{
+  margin-top:10px;
+}
+
+.youtube-link{
+  color:#900;
+}
+.youtube-link:hover{
+  color:darkred;
+}
+
+label{
+  font-size: 0.9em;
+}
+
+.modal.in .modal-dialog {
+  position:fixed;
+  bottom:0px;
+  right:0px;
+  margin:0px;
+}
+
+.add{
+	color:#62f728;
+}
+.add:hover{
+	text-decoration: none;
+	color:#76f544;
+}
+.add:visited{
+	text-decoration: none;
+	color:#76f544;
+}
+.add:visited:hover{
+	text-decoration: none;
+	color:#76f544;
+}
+
+.del{
+	color:#900;
+}
+.del:hover{
+	text-decoration: none;
+	color:#A00;
+}
+.del:visited{
+	text-decoration: none;
+	color:#900;
+}
+.del:visited:hover{
+	text-decoration: none;
+	color:#A00;
+}
