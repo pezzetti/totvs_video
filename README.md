@@ -43,7 +43,7 @@ $db['default'] = array(
 );
 ```
 ### Utilizando o projeto
-Após a preparação de ambiente, e de clonar o [totvs_video](), o projeto estará disponível em  em [http://localhost/totvs_video](http://localhost/totvs_video) caso tenha feito a instalação padrão.
+Após a preparação de ambiente, e de clonar o projeto, o mesmo estará disponível em  em [http://localhost/totvs_video](http://localhost/totvs_video) caso tenha feito a instalação padrão.
 Para visualizar o painel de cadastro de links acesse [http://localhost/totvs_video/index.php/guide](http://localhost/totvs_video/index.php/guide)
 
 
