@@ -1,6 +1,5 @@
 $(document).ready(function(){
-    $("#del").click(function(){
-        alert('hehe');
+    $("#del").click(function(){   
         $(this).parent().remove();
     });
     $("#add").click(function(){
