@@ -18,7 +18,7 @@ Run composer
 $ composer install
 ```
 Change the database connection in *application/config/database.php*:
-Exemplo:
+
 ``` php
 $db['default'] = array(
 	'dsn'	=> '',
