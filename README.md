@@ -3,7 +3,7 @@
 
 Made with CodeIgniter
 
-### Requirers
+### Requirement
 [Composer](https://getcomposer.org/download/);
 
 ### Instalação padrão
