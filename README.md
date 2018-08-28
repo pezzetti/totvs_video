@@ -1,23 +1,23 @@
-# Totvs Video Teste #
+# Video Helper  #
 
 
-Utilizado Framework CodeIgniter
+Made with CodeIgniter
 
-### Requisitos
-Instalar o [Composer](https://getcomposer.org/download/), que será usado para gerenciar as dependências do projeto.
+### Requirers
+[Composer](https://getcomposer.org/download/);
 
 ### Instalação padrão
-Faça o clone do projeto dentro do www/htdocs do seu apache:
+Clone the repository
 ``` ssh
 $ git clone https://github.com/pezzetti/totvs_video.git 
 ```
-Importe *totvs.sql* que se encontra dentro da raiz do projeto para o seu MySql.
+Import *totvs.sql* on the root path 
 
-Instale as dependências via [Composer](https://getcomposer.org/download/):
+Run composer
 ``` ssh
 $ composer install
 ```
-Altere as configurações em *application/config/database.php*:
+Change the database connection in *application/config/database.php*:
 Exemplo:
 ``` php
 $db['default'] = array(
@@ -42,9 +42,9 @@ $db['default'] = array(
 	'save_queries' => TRUE
 );
 ```
-### Utilizando o projeto
-Após a preparação de ambiente, e de clonar o projeto, o mesmo estará disponível em  em [http://localhost/totvs_video](http://localhost/totvs_video) caso tenha feito a instalação padrão.
-Para visualizar o painel de cadastro de links acesse [http://localhost/totvs_video/index.php/guide](http://localhost/totvs_video/index.php/guide)
+### How to use
+Access [http://localhost/totvs_video](http://localhost/totvs_video) to see the video helper next to the form inputs.
+To creat a new video helper, access [http://localhost/totvs_video/index.php/guide](http://localhost/totvs_video/index.php/guide)
 
 
 
