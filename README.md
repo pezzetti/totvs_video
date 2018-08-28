@@ -6,7 +6,7 @@ Made with CodeIgniter
 ### Requirement
 [Composer](https://getcomposer.org/download/);
 
-### Instalação padrão
+### How to install
 Clone the repository
 ``` ssh
 $ git clone https://github.com/pezzetti/totvs_video.git 
